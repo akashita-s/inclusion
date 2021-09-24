@@ -57,9 +57,7 @@ export default function Home() {
           <p className={styles.detail}>{detailone}</p>
         </div>
 
-        <div className={styles.subheading}>
-              Click to Download
-        </div>
+        <div className={styles.subheading}>Click to Download</div>
 
         <ul className={styles.whitecontainer}>
           <li>Inclusive Health learning Brief</li>
@@ -70,7 +68,12 @@ export default function Home() {
 
       <div className={styles.innercontainer}>
         <Image src={"/g82.png"} height={400} width={500} alt="img" />
-        <h1 className={styles.text}>Contact Us</h1>
+        <div className={styles.containerone}>
+          <h1 className={styles.text}>Contact Us</h1>
+          <p className={styles.detail}>
+            Please share you questions, suggestions and insight with us{" "}
+          </p>
+        </div>
       </div>
 
       <div className={`${styles.innercontainer} ${styles.bluecontainer}`}>
