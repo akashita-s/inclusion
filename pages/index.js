@@ -9,7 +9,7 @@ const Minorities = ({ source, text, wd, ht }) => {
   return (
     <div className={styles.imagecontainer}>
       <div className={styles.imageone}>
-        <Image src={source} height={wd} width={ht} alt="img"/>
+        <Image src={source} height={wd} width={ht} alt="img" />
       </div>
       <p className={styles.imagetext}>{text}</p>
     </div>
@@ -17,7 +17,6 @@ const Minorities = ({ source, text, wd, ht }) => {
 };
 
 export default function Home() {
-  
   return (
     <div className={styles.container}>
       <Navbar />
@@ -58,11 +57,15 @@ export default function Home() {
           <p className={styles.detail}>{detailone}</p>
         </div>
 
-        <div className={styles.whitecontainer}>
-          <li>Inclusive Health learning Brief</li>
-          <li>Inclusive Health learning Brief</li>
-          <li>Inclusive Health learning Brief</li>
+        <div className={styles.subheading}>
+              Click to Download
         </div>
+
+        <ul className={styles.whitecontainer}>
+          <li>Inclusive Health learning Brief</li>
+          <li>Inclusive Health learning Brief</li>
+          <li>Inclusive Health learning Brief</li>
+        </ul>
       </div>
 
       <div className={styles.innercontainer}>

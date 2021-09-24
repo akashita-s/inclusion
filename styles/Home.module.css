@@ -40,6 +40,11 @@
   width: 22rem;
   padding: 2rem;
   border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  position: static;
 }
 
 .imagecontainer {
@@ -94,6 +99,21 @@
  background-color: #004890;
  cursor: pointer;
 }
+
+.subheading {
+  width: 12rem;
+  height: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #004890;
+  cursor: pointer;
+  border-radius: 30px;
+  top: 20px;
+  left: 470px;
+  position: relative;
+  
+ }
 
 .inputarea {
   display: flex;
