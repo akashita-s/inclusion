@@ -4,7 +4,6 @@ import Navbar from "../components/navbar/navbar";
 import { detailone, detailtwo, images } from "../constants/api";
 import styles from "../styles/Home.module.css";
 import Button from "../components/button/button";
-import { useRouter } from "next/router";
 
 const Minorities = ({ source, text, wd, ht }) => {
   return (

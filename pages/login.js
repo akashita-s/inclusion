@@ -10,8 +10,16 @@ export default function Login() {
   };
   return (
     <div className={styles.login}>
-      <div>
+      <div className={styles.middle}>
         <h1 className={styles.text}>Login Page</h1>
+        <div className={styles.inputarea}>
+          <input className={styles.inputbox} placeholder="Enter your Name" />
+          <input
+            className={styles.inputbox}
+            placeholder="Enter your Password"
+            type="password"
+          />
+        </div>
         <div onClick={() => onclicklink("/dashboard")}>
           <Button text={"LOGIN"} />
         </div>
